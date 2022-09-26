@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+:root {
+  --primary: "#fcd34d";
+}
+body {
+  font-family: "Dancing Script", cursive;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 5rem auto;
+}
+.bg-primary {
+  background-color: var(--primary);
+}
