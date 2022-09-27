@@ -1,15 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 :root {
-  --primary: "#fcd34d";
+  --primary-color: #fcd34d;
 }
+
 body {
   font-family: "Dancing Script", cursive;
 }
-.header {
+/* flex properties */
+.d-flex {
   display: flex;
-  justify-content: center;
-  padding: 5rem auto;
 }
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+/* spacing properties */
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.max-width-md {
+  max-width: 600px;
+}
+/* header */
+.header {
+  padding: 3rem 0;
+}
+/* colors */
 .bg-primary {
-  background-color: var(--primary);
+  background-color: var(--primary-color);
+}
+
+/* text */
+.text-center {
+  text-align: center;
+}
+
+/* button */
+.primary-btn {
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #000;
+  border-radius: 6px;
 }
